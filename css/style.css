@@ -1,0 +1,23 @@
+
+body{
+    background-color: #AAE3E2;    
+}
+.bg-light{
+    background-color: #ECF9FF;
+}
+.search{
+    width: 250px;
+}
+.aviso-red{
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+.bg-green{
+    background-color: greenyellow;
+}
+@media(min-width:768px){
+    .cambioBTN{
+        height: 38px;
+    }
+}
