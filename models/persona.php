@@ -97,6 +97,13 @@
             }
             return $result;
         }
+        public function buscador(){
+            $sqlBuscador="SELECT * FROM persona WHERE correo LIKE LOWER('%".$this->getCorreo()."%');";
+            $buscador=$this->db->query($sqlBuscador);
+            if ($buscador) {
+                return $buscador;
+            }
+        }
     }
 
 ?>
