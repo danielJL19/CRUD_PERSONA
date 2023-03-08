@@ -5,9 +5,12 @@ class DB{
         if (!$mysqli) {
             die("Conexion fallida: ". mysqli_connect_error());
         }
-        echo $mysqli;
+        
         return $mysqli;
     }
+    
+    
 }
+var_dump(DB::connect());
 session_start();
 ?>
