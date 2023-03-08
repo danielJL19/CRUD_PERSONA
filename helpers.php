@@ -3,7 +3,7 @@ require_once 'models/persona.php';
 if (!isset($_SESSION)) {
     session_start();
 }
-
+echo 'hola';
     class Helper{
         public static function removeSession($session){
             if(isset($_SESSION[$session])){//si existe esta session

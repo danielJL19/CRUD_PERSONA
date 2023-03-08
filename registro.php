@@ -42,3 +42,4 @@ if(isset($_POST)){//SI HAY ENVIO POST
     }
     header('Location:index.php');
 }
+?>
