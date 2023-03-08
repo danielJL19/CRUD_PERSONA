@@ -1,5 +1,5 @@
 <?php 
-require_once 'config/db.php';
+require_once '/config/db.php';
 if(isset($_POST)){//SI HAY ENVIO POST
     //1-VALIDACION DE DATOS, si hay valores o no 
     $nombre=isset($_POST['nombre'])?$_POST['nombre']:false;//si hay valores o no
