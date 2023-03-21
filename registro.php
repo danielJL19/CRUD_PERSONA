@@ -25,7 +25,7 @@ if(isset($_POST)){//SI HAY ENVIO POST
     }
     //3-saber si hay errores o no
     if (count($errores)==0) {
-        require_once '/models/persona.php';
+        require_once 'models/persona.php';
         $persona=new Persona();
         $persona->setNombre($nombre);
         $persona->setApellido($apellido);
