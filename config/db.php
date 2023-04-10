@@ -1,7 +1,7 @@
 <?php 
 class DB{
     public static function connect(){
-        $mysqli= new mysqli("databaseexample.cffwnfqiuyny.us-east-1.rds.amazonaws.com","admin","papelucho123","personasdb");
+        $mysqli= new mysqli("localhost","ubuntu","Danielito123@","personasdb");
         if (!$mysqli) {
             die("Conexion fallida: ". mysqli_connect_error());
         }
